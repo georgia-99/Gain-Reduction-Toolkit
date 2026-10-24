@@ -5,26 +5,31 @@ Implementation of classic audio gain reduction tools: compressor, limiter, clipp
 
 ## Overview
 
-Herein can be found implementation of different gain reduction tools often used in audio applications such as engineering, mixing and mastering. 
+Herein can be found implementation of different gain reduction tools often used in audio applications such as recording, editing, mixing and mastering. 
 
-As expressed in the above quote, these processes often introduce degradation. The quest to have musical outputs be as loud as possible has made for distortion to be commonplace. Some tools exist already to correct these degradations, thus additional steps which allow for analysis and correction of these are included.
+As expressed in the above quote, these processes often introduce quality degradation. The quest to have musical outputs be as loud as possible has made for distortion to be commonplace. Some tools exist already to correct these degradations; additional steps which allow for analysis and correction of these are included in the toolkit.
 
 Each different tool is presented and explained step by step, as well as combined into a single workflow. Following, a tool for analysis of outputs' quality is offered, to compare their spectrums against that of the original signal. A difference spectrogram is then generated between original and processed spectrum as well as a time-domain null test (output_signal - x), before using this information to correct the degraded outputs.
 
-## Table of Contents
-A Step-by-step implementation of different tools
+The goal of this project is to provide an educational tool for those who want to learn exactly how gain-reduction plugins work, while also exploring ways to improve them by addressing how gain reduction can degrade audio quality.
 
-1. Standard compressor implementation
-2. Limiter implementation
-3. Clipper implementation
-4. Multiband compressor implementation
+## README Contents
+1. Step-by-step workflow for each tool
+   - Standard compressor 
+   - Limiter 
+   - Clipper 
+   - Multiband compressor 
+2. Tool implementations, output analysis
+3. Corrective techniques, improvements
+4. Description of user implementation)
+5. References
 
-B Combined implementation
+## Repository contents
 
-C Comparison of outputs
+standard compressor
+limiter
+clipper
+multiband compressor
+combined gain reduction, analysis and correction
 
-D Suggestion of correction
 
-E Pipeline all together (user implementation)
-
-F References

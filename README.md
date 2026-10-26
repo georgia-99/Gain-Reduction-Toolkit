@@ -26,10 +26,5 @@ The goal of this project is to provide an educational tool for those who want to
 
 ## Repository contents
 
-standard compressor
-limiter
-clipper
-multiband compressor
-combined gain reduction, analysis and correction
-
-
+- /basic_dynamics_tools: standard compressor, limiter, clipper, multiband compressor
+- /dynamics_correction: combined gain reduction, analysis and correction
